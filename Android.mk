@@ -82,7 +82,7 @@ common_C_INCLUDES += \
 	external/openssl/include \
 	external/openssl/crypto \
 	external/lzo/include \
-	frameworks/base/cmds/keystore
+	system/security/keystore
 
 common_SHARED_LIBRARIES := libcutils
 
