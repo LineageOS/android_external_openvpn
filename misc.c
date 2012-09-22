@@ -511,6 +511,7 @@ openvpn_execve (const struct argv *a, const struct env_set *es, const unsigned i
 #if defined(ENABLE_EXECVE)
       if (openvpn_execve_allowed (flags))
 	{
+	  signal (SIGCHLD, SIG_DFL);
 	  if (script_method == SM_EXECVE)
 	    {
 	      const char *cmd = a->argv[0];
