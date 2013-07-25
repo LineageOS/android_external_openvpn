@@ -84,7 +84,7 @@ common_C_INCLUDES += \
 	external/lzo/include \
 	system/security/keystore
 
-common_SHARED_LIBRARIES := libcutils
+common_SHARED_LIBRARIES := libcutils libkeystore_binder
 
 ifneq ($(TARGET_SIMULATOR),true)
 	common_SHARED_LIBRARIES += libdl

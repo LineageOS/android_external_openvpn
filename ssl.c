@@ -62,7 +62,8 @@
  * since keystore uses culog, eliminate any previous syslog one to prevent
  * a compile error. */
 #undef LOG_PRI
-#include "keystore_get.h"
+#include "include/keystore/keystore_get.h"
+#define KEYSTORE_MESSAGE_SIZE 65535
 #endif
 
 #include "memdbg.h"
