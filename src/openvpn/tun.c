@@ -1484,7 +1484,7 @@ open_tun (const char *dev, const char *dev_type, const char *dev_node, struct tu
        */
       const char *node = dev_node;
       if (!node)
-	node = "/dev/net/tun";
+	node = "/dev/tun";
 
       /*
        * Open the interface

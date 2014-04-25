@@ -561,10 +561,10 @@
 /* #undef HAVE_WS2TCPIP_H */
 
 /* Path to ifconfig tool */
-#define IFCONFIG_PATH "/sbin/ifconfig"
+#define IFCONFIG_PATH "/system/xbin/ifconfig"
 
 /* Path to iproute tool */
-#define IPROUTE_PATH "/sbin/ip"
+#define IPROUTE_PATH "/system/bin/ip"
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */
@@ -604,7 +604,7 @@
 #define RETSIGTYPE void
 
 /* Path to route tool */
-#define ROUTE_PATH "/sbin/route"
+#define ROUTE_PATH "/system/bin/route"
 
 /* SIGHUP replacement */
 /* #undef SIGHUP */
