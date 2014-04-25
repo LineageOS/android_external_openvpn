@@ -39,7 +39,7 @@
 
 #include "syshead.h"
 
-#if defined(ENABLE_HTTP_PROXY) || defined(ENABLE_PKCS11) || defined(ENABLE_CLIENT_CR) || defined(MANAGMENT_EXTERNAL_KEY)
+#if defined(ENABLE_HTTP_PROXY)
 
 #include "base64.h"
 
