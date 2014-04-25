@@ -866,7 +866,7 @@ init_options (struct options *o, const bool init_gc)
   /* Non-windows platforms use $TMPDIR, and if not set, default to '/tmp' */
   o->tmp_dir = getenv("TMPDIR");
   if( !o->tmp_dir ) {
-          o->tmp_dir = "/tmp";
+          o->tmp_dir = "/data/local/tmp";
   }
 #endif /* WIN32 */
 #endif /* P2MP_SERVER */
