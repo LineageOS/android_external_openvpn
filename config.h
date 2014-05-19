@@ -571,7 +571,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Version in windows resource format */
-#define OPENVPN_VERSION_RESOURCE 2,3,3,0
+#define OPENVPN_VERSION_RESOURCE 2,3,4,0
 
 /* Name of package */
 #define PACKAGE "openvpn"
@@ -583,7 +583,7 @@
 #define PACKAGE_NAME "OpenVPN"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "OpenVPN 2.3.3"
+#define PACKAGE_STRING "OpenVPN 2.3.4"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "openvpn"
@@ -592,7 +592,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "2.3.3"
+#define PACKAGE_VERSION "2.3.4"
 
 /* Path separator */
 #define PATH_SEPARATOR '/'
@@ -698,7 +698,7 @@
 /* #undef USE_VALGRIND */
 
 /* Version number of package */
-#define VERSION "2.3.3"
+#define VERSION "2.3.4"
 
 /* Define to 1 if on MINIX. */
 /* #undef _MINIX */

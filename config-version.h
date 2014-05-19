@@ -1,2 +1,2 @@
-#define CONFIGURE_GIT_REVISION "refs/heads/release-v2.3.3/8962827529636126"
+#define CONFIGURE_GIT_REVISION "refs/heads/v2.3.4/024454a068a0da"
 
